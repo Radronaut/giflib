@@ -26,5 +26,9 @@ public class GifRepository {
         }
         return null;
     }
+
+    public <Gif>List getAllGifs() {
+        return ALL_GIFS;
+    }
 }
 
